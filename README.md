@@ -5,7 +5,6 @@
 ```
 git --version
 ```
-> You can use the Copy button to copy commands to the clipboard. To paste, right-click on a new line in the Cloud Shell terminal and select Paste, or use the Shift+Insert keyboard shortcut (⌘+V on macOS).
 
 2. Set your name in Cloud Shell with the following command. Replace <USER_NAME> with the user name you want to use.
 ```
@@ -23,3 +22,9 @@ git config --list
 ```
 
 ![image](https://github.com/user-attachments/assets/2754affc-4a41-476e-a259-d052f504020c)
+
+## Set up your Git repository
+1. Create a folder named. This folder will be the project directory, also called the working tree. The project directory is where all files related to your project are stored. In this exercise, it's where your website and the files that create the website and its contents are stored.
+```
+  mkdir "<FOLDER_NAME>"
+```

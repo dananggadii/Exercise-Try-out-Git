@@ -1,6 +1,6 @@
 # Exercise Try out Git
 
-## Configure Git
+## 1. Configure Git
 1. In Cloud Shell, to double-check that Git is installed, type git --version:
 ```
 git --version
@@ -23,7 +23,7 @@ git config --list
 
 ![image](https://github.com/user-attachments/assets/2754affc-4a41-476e-a259-d052f504020c)
 
-## Set up your Git repository
+## 2. Set up your Git repository
 1. Create a folder named. This folder will be the project directory, also called the working tree. The project directory is where all files related to your project are stored. In this exercise, it's where your website and the files that create the website and its contents are stored.
 ```
   mkdir "<FOLDER_NAME>"

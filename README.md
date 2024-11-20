@@ -1,5 +1,3 @@
-# Exercise Try out Git
-
 ## Configure Git
 1. In Cloud Shell, to double-check that Git is installed, type git --version:
 ```

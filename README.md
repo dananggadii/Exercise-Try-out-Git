@@ -34,8 +34,6 @@ mkdir "<FOLDER_NAME>"
 cd "<FOLDER_NAME>"
 ```
 
-![image](https://github.com/user-attachments/assets/424a0308-c9f1-4d8a-ae96-22bafd360c13)
-
 3. Now, initialize your new repository and set the name of the default branch to main:
 ```
 git init -b main
@@ -50,5 +48,5 @@ git status
 ```
 ls -a
 ```
-> Note : 
+> **NOTE** : 
 > Confirm that the directory contains a subdirectory named .git. (Using the -a option with ls is important because Linux normally hides file and directory names that start with a period.) This folder is the Git repository—the directory in which Git stores metadata and history for the working tree.

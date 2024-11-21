@@ -48,3 +48,55 @@ ls -a
 ```
 > **NOTE** : 
 > Confirm that the directory contains a subdirectory named .git. (Using the -a option with ls is important because Linux normally hides file and directory names that start with a period.) This folder is the Git repository—the directory in which Git stores metadata and history for the working tree.
+
+## SETUP & INIT
+1. Retrieve an entire repository from a hosted location via URL
+```
+git clone [url]
+```
+
+2. Show modified files in working directory, staged for your next commit
+```
+git status
+```
+
+3. Add a file as it looks now to your next commit (stage)
+```
+git add [file]
+git add .
+```
+
+4. Unstage a file while retaining the changes in working directory
+```
+git reset [file]
+```
+
+5. Commit your staged content as a new commit snapshot
+```
+git commit -m “[descriptive message]”
+```
+
+6. list your branches. a * will appear next to the currently active branch
+```
+git branch
+```
+
+7. Create a new branch at the current commit
+```
+git branch [branch-name]
+```
+
+8. Switch to another branch and check it out into your working directory
+```
+git checkout
+```
+
+9. Merge the specified branch’s history into the current one
+```
+git merge [branch]
+```
+
+10. Show all commits in the current branch’s history 
+```
+git log
+```
